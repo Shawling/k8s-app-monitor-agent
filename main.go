@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 
-	metric "github.com/rootsongjc/k8s-app-monitor-test/service"
+	metric "github.com/Shawling/k8s-app-monitor-test/service"
 	chart "github.com/wcharczuk/go-chart"
 )
 
