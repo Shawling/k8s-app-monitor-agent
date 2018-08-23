@@ -13,6 +13,7 @@ build:
           go get -u github.com/Masterminds/glide
           export PATH=$WERCKER_SOURCE_DIR/bin:$PATH
           glide install
+          go get -u github.com/Shawling/k8s-app-monitor-test/service
 
     # Build the project
     - script:
